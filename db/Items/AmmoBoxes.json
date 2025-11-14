@@ -1,0 +1,523 @@
+{
+    "687046975f9b1d8dd0141a13": {
+        "itemTplToClone": "65702406bfc87b3a34093216",
+        "parentId": "543be5cb4bdc2deb348b4568",
+        "handbookParentId": "5b47574386f77428ca22b33c",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "assets/content/items/ammo/boxes/item_ammo_box_45_acp.bundle",
+                "rcid": ""
+            },
+            "StackMaxRandom": 60,
+            "StackMinRandom": 60,
+            "StackSlots": [
+                {
+                    "_name": "cartridges",
+                    "_id": "6870469bfd84349c04d1d62d",
+                    "_parent": "687046975f9b1d8dd0141a13",
+                    "_max_count": 60,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6851a7436b5a01959e6f54f9"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "ammoCaliber": "Caliber102x22"
+        },
+        "locales": {
+            "en": {
+                "name": ".40 S&W FMJ ammo pack (60 pcs)",
+                "shortName": "FMJ",
+                "description": "A pack of .40 S&W FMJ ammo, 60 rounds."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 38673,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": false,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 2
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 289,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+                "Probability": 34
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 30
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 76
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 40
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 85
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 150
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 100
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 120
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 90
+            }
+        ]
+    },
+    "687046a44a66bb1e7b4f6896": {
+        "itemTplToClone": "65702406bfc87b3a34093216",
+        "parentId": "543be5cb4bdc2deb348b4568",
+        "handbookParentId": "5b47574386f77428ca22b33c",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "assets/content/items/ammo/boxes/item_ammo_box_45_acp.bundle",
+                "rcid": ""
+            },
+            "StackMaxRandom": 60,
+            "StackMinRandom": 60,
+            "StackSlots": [
+                {
+                    "_name": "cartridges",
+                    "_id": "687046a7ffd99d6c0daa6478",
+                    "_parent": "687046a44a66bb1e7b4f6896",
+                    "_max_count": 60,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6851a9c7efa6d303c471beb2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "ammoCaliber": "Caliber102x22"
+        },
+        "locales": {
+            "en": {
+                "name": ".40 S&W JHP ammo pack (60 pcs)",
+                "shortName": "JHP",
+                "description": "A pack of .40 S&W FMJ ammo, 60 rounds."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 85973,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": false,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 2
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 289,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+                "Probability": 15
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 25
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 56
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 33
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 50
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 50
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 56
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 90
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 60
+            }
+        ]
+    },
+    "68704713d6e05cb6c1039f4a": {
+        "itemTplToClone": "65702406bfc87b3a34093216",
+        "parentId": "543be5cb4bdc2deb348b4568",
+        "handbookParentId": "5b47574386f77428ca22b33c",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "assets/content/items/ammo/boxes/item_ammo_box_45_acp.bundle",
+                "rcid": ""
+            },
+            "StackMaxRandom": 60,
+            "StackMinRandom": 60,
+            "StackSlots": [
+                {
+                    "_name": "cartridges",
+                    "_id": "687047165bd3d0022712fed6",
+                    "_parent": "68704713d6e05cb6c1039f4a",
+                    "_max_count": 60,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6851ab968c52422fbf785f59"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "ammoCaliber": "Caliber102x22"
+        },
+        "locales": {
+            "en": {
+                "name": ".40 S&W +P ammo pack (60 pcs)",
+                "shortName": "+P",
+                "description": "A pack of .40 S&W +P ammo, 60 rounds."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 55480,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": false,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 2
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 289,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+                "Probability": 15
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 25
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 56
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 33
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 50
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 50
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 56
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 90
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 60
+            }
+        ]
+    },
+    "68704789b4d4fee9db49a148": {
+        "itemTplToClone": "65702406bfc87b3a34093216",
+        "parentId": "543be5cb4bdc2deb348b4568",
+        "handbookParentId": "5b47574386f77428ca22b33c",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "assets/content/items/ammo/boxes/item_ammo_box_45_acp.bundle",
+                "rcid": ""
+            },
+            "StackMaxRandom": 60,
+            "StackMinRandom": 60,
+            "StackSlots": [
+                {
+                    "_name": "cartridges",
+                    "_id": "6870478b25de2f24149fed73",
+                    "_parent": "68704789b4d4fee9db49a148",
+                    "_max_count": 60,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6851add2caf8415c3bb32142"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "ammoCaliber": "Caliber102x22"
+        },
+        "locales": {
+            "en": {
+                "name": ".40 S&W Tracer ammo pack (60 pcs)",
+                "shortName": "Tracer",
+                "description": "A pack of .40 S&W Tracer ammo, 60 rounds."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 22857,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": false,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 2
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 289,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+                "Probability": 34
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 30
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 76
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 40
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 85
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 150
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 100
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 120
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 90
+            }
+        ]
+    },
+    "687047e69a364c8af2677eca": {
+        "itemTplToClone": "657023dabfc87b3a3409320d",
+        "parentId": "543be5cb4bdc2deb348b4568",
+        "handbookParentId": "5b47574386f77428ca22b33c",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "assets/content/items/ammo/boxes/item_ammo_box_338_lapua_magnum.bundle",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxRandom": 10,
+            "StackMinRandom": 10,
+            "StackSlots": [
+                {
+                    "_name": "cartridges",
+                    "_id": "687047e906e1092b3862080c",
+                    "_parent": "687047e69a364c8af2677eca",
+                    "_max_count": 10,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6859749fb61f50b920ae5a2a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "ammoCaliber": "Caliber86x70"
+        },
+        "locales": {
+            "en": {
+                "name": ".338 Lapua Magnum Raufoss ammo pack (10 pcs)",
+                "shortName": "Raufoss",
+                "description": "A pack of .338 Lapua Magnum Raufoss ammo, 10 rounds."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 88888,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": false,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 2
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 289,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+                "Probability": 3
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 3
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 4
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 8
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 15
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 10
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 12
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 9
+            }
+        ]
+    }
+}

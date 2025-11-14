@@ -1,0 +1,450 @@
+{
+    "68911d7232685c0f4e3fe6f2": {
+        "itemTplToClone": "6193a720f8ee7e52e42109ed",
+        "parentId": "HANDGUN",
+        "handbookParentId": "WEAPONS_PISTOLS",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "WeaponUSP9/weapon_usp9_container.bundle",
+                "rcid": ""
+            },
+            "SingleFireRate": 500,
+            "ConflictingItems": [],
+            "bHearDist": 80,
+            "RecoilForceBack": 275,
+            "RecoilForceUp": 373,
+            "RecoilDampingHandRotation": 0.8,
+            "RecoilCamera": 0.02,
+            "DurabilityBurnRatio": 1.15,
+            "Slots": [
+                {
+                    "_name": "mod_barrel",
+                    "_id": "68911d78cc5f15c922e2c93e",
+                    "_parent": "68911d7232685c0f4e3fe6f2",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "6194ef39de3cdf1d2614a768",
+                                    "6194efe07c6c7b169525f11b",
+                                    "6194eff92d2c397d6600348b",
+                                    "6194f017ed0429009f543eaa",
+                                    "6194f02d9bb3d20b0946d2f0"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "68911d7924a4e8858cd2506b",
+                    "_parent": "68911d7232685c0f4e3fe6f2",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "689120759582241ccb891f21",
+                                    "68911e536e139614bf80a634"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_magazine",
+                    "_id": "68911d7b71231ef365021e11",
+                    "_parent": "68911d7232685c0f4e3fe6f2",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "68911e4ad644d5d288ed2e63"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_trigger",
+                    "_id": "68911db8346a828eb6eb9a23",
+                    "_parent": "68911d7232685c0f4e3fe6f2",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "6193d3cded0429009f543e6a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_hammer",
+                    "_id": "68911dc6b4b69ba7c52dac03",
+                    "_parent": "68911d7232685c0f4e3fe6f2",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "6193d3be7c6c7b169525f0da"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_catch",
+                    "_id": "68911dd7053c8733ba9d16c3",
+                    "_parent": "68911d7232685c0f4e3fe6f2",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "6193d5d4f8ee7e52e4210a1b"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "68911dd7053c8733ba9d16c3",
+                    "_parent": "68911d7232685c0f4e3fe6f2",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "619621a4de3cdf1d2614a7a7",
+                                    "619624b26db0f2477964e6b0",
+                                    "6196255558ef8c428c287d1c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ammoCaliber": "Caliber9x19PARA",
+            "defMagType": "6193d338de3cdf1d2614a6fc",
+            "Chambers": [
+                {
+                    "_name": "patron_in_weapon",
+                    "_id": "68911eedad1812f637de4e1e",
+                    "_parent": "68911d7232685c0f4e3fe6f2",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5efb0da7a29a85116f6ea05f",
+                                    "5c3df7d588a4501f290594e5",
+                                    "58864a4f2459770fcc257101",
+                                    "56d59d3ad2720bdb418b4577",
+                                    "5c925fa22e221601da359b7b",
+                                    "5a3c16fe86f77452b62de32a",
+                                    "5efb0e16aeb21837e749c7ff",
+                                    "5c0d56a986f774449d5de529",
+                                    "64b7bbb74b75259c590fa897"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d4af244bdc2d962f8b4571"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "HK USP 9x19 pistol",
+                "shortName": "USP 9x19",
+                "description": "The HK USP (Universelle Selbstladepistole - \"Universal Self-loading Pistol\") pistol is a further replacement of the HK P7 series pistols. Internationally accepted as an accurate and ultra-reliable handgun. Using a modified Browning-type action with a special patented recoil reduction system, the USP recoil reduction system reduces recoil effects on pistol components and also lowers the recoil forces felt by the shooter. This particular variant is chambered in 9mm Parabellum. Manufactured by Heckler & Koch."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 31528,
+        "handbookPriceRoubles": 8573,
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 2
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 173,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 25
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 15
+            }
+        ],
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "USP",
+                "Templates": [
+                    "68911d7232685c0f4e3fe6f2"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "689120759582241ccb891f21": {
+		"itemTplToClone": "6194f41f9fb0c665d5490e75",
+		"parentId": "RECEIVER",
+		"handbookParentId": "MOD_RECEIVER",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponUSP9/usp9_tactical_slide.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "HK USP Tactical 9x19 pistol slide",
+				"shortName": "USP9T",
+				"description": "A pistol slide for the special version of the USP9 pistol - USP9 Tactical, manufactured by Heckler & Koch."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_reciever"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"addtoTraders": false,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 4
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 31,
+				"_tpl": "EUROS"
+			}
+		],
+		"loyallevelitems": 2,
+		"fleaPriceRoubles": 5583,
+		"handbookPriceRoubles": 3300,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 7
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 6
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 5
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1
+			}
+		]
+	},
+    "68911e536e139614bf80a634": {
+		"itemTplToClone": "6194f5a318a3974e5e7421eb",
+		"parentId": "RECEIVER",
+		"handbookParentId": "MOD_RECEIVER",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponUSP9/usp9_match_slide.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "HK USP Match 9x19 pistol slide",
+				"shortName": "USP9M",
+				"description": "A pistol slide for the special version of the USP9 pistol - USP9 Match, manufactured by Heckler & Koch."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_reciever"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"addtoTraders": false,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 4
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 31,
+				"_tpl": "EUROS"
+			}
+		],
+		"loyallevelitems": 2,
+		"fleaPriceRoubles": 5583,
+		"handbookPriceRoubles": 3600,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 7
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 6
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 5
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1
+			}
+		]
+	},
+    "68911e4ad644d5d288ed2e63": {
+		"itemTplToClone": "6193d338de3cdf1d2614a6fc",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/mods/magazines/mag_usp_hk_usp_1143x23_12.bundle",
+				"rcid": ""
+			},
+            "Cartridges": [
+                {
+                    "_name": "cartridges",
+                    "_id": "68911f0e7f70c2eabb5bf8ef",
+                    "_parent": "68911e4ad644d5d288ed2e63",
+                    "_max_count": 15,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5efb0da7a29a85116f6ea05f",
+                                    "5c3df7d588a4501f290594e5",
+                                    "58864a4f2459770fcc257101",
+                                    "56d59d3ad2720bdb418b4577",
+                                    "5c925fa22e221601da359b7b",
+                                    "5a3c16fe86f77452b62de32a",
+                                    "5efb0e16aeb21837e749c7ff",
+                                    "5c0d56a986f774449d5de529",
+                                    "64b7bbb74b75259c590fa897"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+		},
+		"locales": {
+			"en": {
+				"name": "HK USP 9x19 15-round magazine",
+				"shortName": "USP9",
+				"description": "A standard-issue 12-round .45 ACP magazine for the USP45 pistol."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_reciever"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"addtoTraders": false,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 4
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 31,
+				"_tpl": "EUROS"
+			}
+		],
+		"loyallevelitems": 2,
+		"fleaPriceRoubles": 5583,
+		"handbookPriceRoubles": 3300,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 7
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 6
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 5
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1
+			}
+		]
+	}
+}
