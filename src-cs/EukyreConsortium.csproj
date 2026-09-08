@@ -31,7 +31,7 @@
 
   <Target Name="DeployToSpt" AfterTargets="Build" Condition=" '$(DeployToSpt)' != 'false' AND Exists('$(SptRoot)') ">
     <PropertyGroup>
-      <SptModDir>$(SptRoot)\SPT\user\mods\EukyreConsortium\</SptModDir>
+      <SptModDir>$(SptRoot)\SPT_Runtime\user\mods\EukyreConsortium\</SptModDir>
     </PropertyGroup>
     <ItemGroup>
       <DeployFiles Include="$(TargetDir)**\*.*" />
