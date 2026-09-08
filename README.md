@@ -19,12 +19,29 @@ Glock 22, .40 S&W 탄종, .338 LM RIP, Unity FAST COG 마운트, Blahaj 등 184�
 
 ## 빌드
 
+.NET 10 SDK 만 있으면 됩니다. NuGet 이 SPTushonka 4.1.5 와 WTT-ServerCommonLib 3.0.6 을 알아서 받습니다.
+
 ```
 dotnet build src-cs/EukyreConsortium.csproj -c Release
 ```
 
-SPT 경로 기본값은 `E:\SPT 4.1`. 다르면 `-p:SptRoot="D:\내경로"`.
-빌드하면 dll + db + 번들 1.1GB 가 위 경로로 복사됩니다.
+SPT 경로 기본값은 `E:\SPT 4.1`. 다르면:
+
+```
+dotnet build src-cs/EukyreConsortium.csproj -c Release -p:SptRoot="D:\내SPT경로"
+```
+
+빌드가 끝나면 `SPT\user\mods\EukyreConsortium\` 로 **dll + db + 번들 1.1GB** 가 전부 복사됩니다.
+
+번들 복사가 느려서 코드만 확인하고 싶을 때는 배포를 끄면 됩니다:
+
+```
+dotnet build src-cs/EukyreConsortium.csproj -c Release -p:DeployToSpt=false
+```
+
+> 빌드에는 WTT-ServerCommonLib **NuGet 패키지**만 있으면 되지만, **게임을 켜려면 WTT-CommonLib
+> 모드 자체도 설치**돼 있어야 합니다 (SPT Forge / GitHub 에서 받아 SPT 폴더에 압축 해제).
+> 빌드 결과물에 라이브러리 dll 은 안 들어갑니다 — 그 모드가 제공합니다.
 
 ---
 
@@ -89,7 +106,26 @@ SPT 4.x 서버는 C#입니다. 그런데 이 모드의 `CustomItemService.ts` 84
   아이템 설정에 데이터를 그대로 두고(라이브러리는 무시), 등록 후 해당 슬롯 필터에서 다시
   빼는 패스를 넣었습니다. 16개 아이템이 이걸 씁니다.
 
-### 5. 그 밖
+### 5. 로드 순서 (라이브러리와 맞물리는 부분)
+
+이게 조용히 틀리기 쉬운 부분이라 실제 `TypePriority` 를 어셈블리에서 읽어 맞췄습니다.
+
+| 순서 | 누가 | TypePriority |
+| --- | --- | --- |
+| 1 | WTT 라이브러리 진입점 (Harmony 패치, 자체 로케일) | 100,000 |
+| 2 | **ECOT 등록** (아이템 / 어소트 / 프리셋 / 로케일) | **300,010** |
+| 3 | WTT `PostSptLoad` — 구경·모드슬롯·시큐어필터 지연 패스 | 1,000,000 |
+| 4 | **ECOT 후처리** (CompatibilityEdits + ModdableItemBlacklist) | **1,000,020** |
+
+여기서 두 가지를 고쳤습니다:
+
+- **지연 패스를 직접 호출하지 않습니다.** 라이브러리가 4번 직전(`PostSptLoad`)에 스스로 돌립니다.
+  2번 단계에서 부르면 다른 모드가 아직 아이템을 등록하기 전이라 호환이 누락되고, 그 뒤에 라이브러리가
+  한 번 더 돌립니다.
+- **`ModdableItemBlacklist` 는 반드시 3번 뒤여야 합니다.** 라이브러리가 모드 슬롯에 아이템을 넣는 게
+  3번인데, 그 전에 빼봐야 뺄 게 없습니다.
+
+### 6. 그 밖
 
 - `[Injectable(InjectionType.Singleton)]` 명시 — 4.1이 기본값을 `Scoped` → `Transient` 로 바꿨습니다
 - `IModMetadata` + `OnLoadAsync(CancellationToken)`, `ModDependencies` 에 WTT commonlib 선언

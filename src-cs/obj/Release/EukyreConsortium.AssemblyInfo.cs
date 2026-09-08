@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EukyreConsortium")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0+e52697c51c6a55417fb84bf4ce46fade9564a65c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0+78a65416cb3b5dbf4971adffbe4ad0e77a605741")]
 [assembly: System.Reflection.AssemblyProductAttribute("EukyreConsortium")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EukyreConsortium")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.0.0")]
