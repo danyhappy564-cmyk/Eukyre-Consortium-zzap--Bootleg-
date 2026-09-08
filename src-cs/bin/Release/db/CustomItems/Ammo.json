@@ -1,0 +1,727 @@
+{
+  "6851a7436b5a01959e6f54f9": {
+    "itemTplToClone": "5e81f423763d9f754677bf2e",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/40sw/patron_40sw_fmj.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Caliber": "Caliber102x22",
+      "Weight": 0.01,
+      "InitialSpeed": 355,
+      "BallisticCoeficient": 0.2,
+      "BulletMassGram": 11.7,
+      "BulletDiameterMilimeters": 10.2,
+      "Damage": 68,
+      "ammoAccr": -2,
+      "ammoRec": 4,
+      "PenetrationPower": 28,
+      "PenetrationPowerDiviation": 0.02,
+      "ArmorDamage": 44,
+      "DurabilityBurnModificator": 1.52,
+      "HeatFactor": 1.12,
+      "RicochetChance": 0.22,
+      "HeavyBleedingDelta": 0.11,
+      "LightBleedingDelta": 0.36,
+      "MalfFeedChance": 0.036
+    },
+    "locales": {
+      "en": {
+        "name": ".40 S&W FMJ",
+        "shortName": "FMJ",
+        "description": "Standard 10.2x22mm (.40 S&W) full metal jacket ammo offering reliable penetration and consistent velocity. Balanced for accuracy in pistols and SMGs chambered in .40 S&W, making it a solid choice for general combat in smaller firearms."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "handbookPriceRoubles": 145,
+    "fleaPriceRoubles": 230,
+    "addtoBots": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      }
+    ],
+    "addtoStaticLootContainers": false,
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "fa6b3cf23f5a47071524b8a3": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 200
+          },
+          "barters": [
+            {
+              "count": 1,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6851a9c7efa6d303c471beb2": {
+    "itemTplToClone": "5e81f423763d9f754677bf2e",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/40sw/patron_40sw_jhp.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Caliber": "Caliber102x22",
+      "Weight": 0.01,
+      "InitialSpeed": 325,
+      "BallisticCoeficient": 0.18,
+      "BulletMassGram": 11.3,
+      "BulletDiameterMilimeters": 10.2,
+      "Damage": 85,
+      "ammoAccr": 5,
+      "ammoRec": 6,
+      "PenetrationPower": 12,
+      "PenetrationPowerDiviation": 0.11,
+      "ArmorDamage": 28,
+      "DurabilityBurnModificator": 1.52,
+      "HeatFactor": 1.0,
+      "RicochetChance": 0.1,
+      "HeavyBleedingDelta": 0.3,
+      "LightBleedingDelta": 0.55,
+      "MalfFeedChance": 0.036
+    },
+    "locales": {
+      "en": {
+        "name": ".40 S&W JHP",
+        "shortName": "JHP",
+        "description": ".40 S&W JHP (Jacketed Hollow Point) offer shooters a high-performance, controlled expansion option for self-defense or hunting applications."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "handbookPriceRoubles": 210,
+    "fleaPriceRoubles": 330,
+    "addtoBots": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      }
+    ],
+    "addtoStaticLootContainers": false,
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "493adc3a84f635dc66706dd6": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 100
+          },
+          "barters": [
+            {
+              "count": 3,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6851ab968c52422fbf785f59": {
+    "itemTplToClone": "5e81f423763d9f754677bf2e",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/40sw/patron_40sw_plus_p.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Caliber": "Caliber102x22",
+      "Weight": 0.01,
+      "InitialSpeed": 368,
+      "BallisticCoeficient": 0.24,
+      "BulletMassGram": 10.5,
+      "BulletDiameterMilimeters": 10.2,
+      "Damage": 68,
+      "ammoAccr": -4,
+      "ammoRec": 13,
+      "PenetrationPower": 33,
+      "PenetrationPowerDiviation": 0.25,
+      "ArmorDamage": 32,
+      "DurabilityBurnModificator": 1.52,
+      "HeatFactor": 1.66,
+      "RicochetChance": 0.25,
+      "HeavyBleedingDelta": 0.3,
+      "LightBleedingDelta": 0.55,
+      "MalfFeedChance": 0.046
+    },
+    "locales": {
+      "en": {
+        "name": ".40 S&W +P",
+        "shortName": "+P",
+        "description": ".40 S&W +P contains higher offers increased velocity and improved stopping power over standard .40 S&W rounds. Designed for enhanced penetration and expansion, making it ideal for self-defense and tactical use where extra performance is needed."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "handbookPriceRoubles": 210,
+    "fleaPriceRoubles": 330,
+    "addtoBots": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      }
+    ],
+    "addtoStaticLootContainers": false,
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "943278fe703649bb8ac9147f": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 150
+          },
+          "barters": [
+            {
+              "count": 2,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6851add2caf8415c3bb32142": {
+    "itemTplToClone": "5e81f423763d9f754677bf2e",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/40sw/patron_40sw_tracer.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Caliber": "Caliber102x22",
+      "Weight": 0.01,
+      "InitialSpeed": 342,
+      "BallisticCoeficient": 0.2,
+      "BulletMassGram": 10.9,
+      "BulletDiameterMilimeters": 10.2,
+      "Damage": 62,
+      "ammoAccr": -2,
+      "ammoRec": 10,
+      "PenetrationPower": 17,
+      "PenetrationPowerDiviation": 0.16,
+      "ArmorDamage": 25,
+      "DurabilityBurnModificator": 1.22,
+      "HeatFactor": 1.36,
+      "RicochetChance": 0.3,
+      "HeavyBleedingDelta": 0.15,
+      "LightBleedingDelta": 0.36,
+      "MalfFeedChance": 0.046
+    },
+    "locales": {
+      "en": {
+        "name": ".40 S&W Red Tracer",
+        "shortName": "RT",
+        "description": "A standard .40 S&W Red Tracer (RT) cartridge."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "handbookPriceRoubles": 120,
+    "fleaPriceRoubles": 118,
+    "addtoBots": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      }
+    ],
+    "addtoStaticLootContainers": false,
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "0317e579ad78b03297562b80": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 150
+          },
+          "barters": [
+            {
+              "count": 2,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "687b8b75fd434e69a5d76a20": {
+    "itemTplToClone": "5e81f423763d9f754677bf2e",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/40sw/patron_40sw_woodsman.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Caliber": "Caliber102x22",
+      "Weight": 0.01,
+      "InitialSpeed": 330,
+      "BallisticCoeficient": 0.14,
+      "BulletMassGram": 9.9,
+      "BulletDiameterMilimeters": 10.2,
+      "Damage": 78,
+      "ammoAccr": -1,
+      "ammoRec": 3,
+      "PenetrationPower": 18,
+      "PenetrationPowerDiviation": 0.07,
+      "ArmorDamage": 26,
+      "DurabilityBurnModificator": 1.52,
+      "HeatFactor": 1.15,
+      "RicochetChance": 0.11,
+      "HeavyBleedingDelta": 0.12,
+      "LightBleedingDelta": 0.2,
+      "MalfFeedChance": 0.036
+    },
+    "locales": {
+      "en": {
+        "name": ".40 S&W Woodsman",
+        "shortName": "WM",
+        "description": "Standard 10.2x22mm (.40 S&W) specialized hunting-style round designed for controlled expansion and deep penetration on soft targets. Engineered to deliver reliable terminal performance with enhanced stopping power and reduced over-penetration."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "handbookPriceRoubles": 220,
+    "fleaPriceRoubles": 441,
+    "addtoBots": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 6
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 14
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 8
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 16
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 30
+      },
+      {
+        "containerName": "LOOTCONTAINER_GROUND_CACHE",
+        "probability": 20
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 24
+      },
+      {
+        "containerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+        "probability": 18
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "84f555aad08b59f08484f379": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 120
+          },
+          "barters": [
+            {
+              "count": 3,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "687b8d7cfc440519506ed342": {
+    "itemTplToClone": "5e81f423763d9f754677bf2e",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/40sw/patron_40sw_rip.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Caliber": "Caliber102x22",
+      "Weight": 0.01,
+      "InitialSpeed": 325,
+      "BallisticCoeficient": 0.15,
+      "BulletMassGram": 12.6,
+      "BulletDiameterMilimeters": 10.2,
+      "Damage": 110,
+      "ammoAccr": -5,
+      "ammoRec": 7.5,
+      "PenetrationPower": 6,
+      "PenetrationPowerDiviation": 0.11,
+      "ArmorDamage": 10,
+      "DurabilityBurnModificator": 1.52,
+      "HeatFactor": 1.25,
+      "RicochetChance": 0.05,
+      "HeavyBleedingDelta": 0.45,
+      "LightBleedingDelta": 0.8,
+      "MalfFeedChance": 0.043,
+      "StackMaxSize": 40
+    },
+    "locales": {
+      "en": {
+        "name": ".40 S&W RIP",
+        "shortName": "RIP",
+        "description": "Standard 10.2x22mm (.40 S&W) Radically Invasive Projectile (RIP) rounds designed to maximize soft tissue trauma. These hollow-point rounds fragment on impact, creating multiple wound channels for extreme flesh damage. While highly effective against unarmored targets, their armor penetration is limited. Best used in scenarios focused on stopping power over penetration."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "handbookPriceRoubles": 415,
+    "fleaPriceRoubles": 611,
+    "addtoBots": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 4
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 8
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 15
+      },
+      {
+        "containerName": "LOOTCONTAINER_GROUND_CACHE",
+        "probability": 10
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 12
+      },
+      {
+        "containerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+        "probability": 9
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "70259688aaaa9a39f9bbbddd": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 80
+          },
+          "barters": [
+            {
+              "count": 4,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "687b919eaaa579212ca2be2a": {
+    "itemTplToClone": "5e81f423763d9f754677bf2e",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/40sw/patron_40sw_xp.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Caliber": "Caliber102x22",
+      "Weight": 0.011,
+      "InitialSpeed": 415,
+      "BallisticCoeficient": 0.19,
+      "BulletMassGram": 12.6,
+      "BulletDiameterMilimeters": 10.2,
+      "Damage": 49,
+      "ammoAccr": -2,
+      "ammoRec": 9.3,
+      "PenetrationPower": 46,
+      "PenetrationPowerDiviation": 0.02,
+      "ArmorDamage": 55,
+      "DurabilityBurnModificator": 1.52,
+      "HeatFactor": 1.25,
+      "RicochetChance": 0.18,
+      "HeavyBleedingDelta": 0.38,
+      "LightBleedingDelta": 0.15,
+      "MalfFeedChance": 0.043,
+      "StackMaxSize": 40
+    },
+    "locales": {
+      "en": {
+        "name": ".40 S&W Xtreme Penetrator",
+        "shortName": "XP",
+        "description": "Standard 10.2x22mm (.40 S&W) High-velocity rounds engineered for enhanced armor penetration. Featuring hardened penetrator cores, these rounds sacrifice some flesh damage to reliably defeat light and medium body armor."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "handbookPriceRoubles": 401,
+    "fleaPriceRoubles": 842,
+    "addtoBots": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 4
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 8
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 11
+      },
+      {
+        "containerName": "LOOTCONTAINER_GROUND_CACHE",
+        "probability": 10
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 12
+      },
+      {
+        "containerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+        "probability": 9
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "3ec49b34db518c36c845efdf": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 60
+          },
+          "barters": [
+            {
+              "count": 5,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "68561ab84857b945e0ce85e9": {
+    "itemTplToClone": "5fc382b6d6fa9c00c571bbc3",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/338lm/patron_86x70_rip.bundle",
+        "rcid": ""
+      },
+      "InitialSpeed": 860,
+      "ArmorDamage": 24,
+      "PenetrationPower": 11,
+      "ammoAccr": -5,
+      "Recoil": 8,
+      "Damage": 235,
+      "FragmentType": "5996f6d686f77467977ba6cc",
+      "FragmentationChance": 0.65,
+      "FragmentsCount": 2,
+      "HeavyBleedingDelta": 0.55,
+      "LightBleedingDelta": 0.8,
+      "Tracer": false,
+      "TracerColor": "red",
+      "TracerDistance": 0,
+      "StackMaxSize": 40,
+      "ExaminedByDefault": true,
+      "DiscardingBlock": false,
+      "DiscardLimit": 0,
+      "CanSellOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": ".338 Lapua Magnum RIP",
+        "shortName": "RIP",
+        "description": ".338 Lapua Magnum RIP (Radically Invasive Projectile) is designed for extreme soft tissue trauma as it fragments on impact to maximize flesh damage. While devastating against unarmored targets, its poor penetration makes it ineffective against armored threats."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "handbookPriceRoubles": 2390,
+    "fleaPriceRoubles": 6000,
+    "addtoBots": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": true,
+    "traders": {
+      "5c0647fdd443bc2504c2d371": {
+        "ff08f36c5a3c2947d40e85ab": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 30
+          },
+          "barters": [
+            {
+              "count": 2390,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6859749fb61f50b920ae5a2a": {
+    "itemTplToClone": "5fc382b6d6fa9c00c571bbc3",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/338lm/patron_86x70_lapua_raufoss.bundle",
+        "rcid": ""
+      },
+      "InitialSpeed": 895,
+      "ArmorDamage": 54,
+      "PenetrationPower": 58,
+      "ammoAccr": -6.5,
+      "BulletMassGram": 16.4,
+      "Recoil": 16,
+      "Damage": 119,
+      "FragmentType": "66ec2aa6daf127599c0c31f1",
+      "FragmentationChance": 0.7,
+      "FragmentsCount": 3,
+      "ExplosionStrength": 3,
+      "HasGrenaderComponent": true,
+      "ExplosionType": "big_round_impact",
+      "MaxExplosionDistance": 1,
+      "MinExplosionDistance": 0.1,
+      "MinFragmentsCount": 1,
+      "HeavyBleedingDelta": 0.5,
+      "LightBleedingDelta": 0.3,
+      "Tracer": true,
+      "TracerColor": "red",
+      "TracerDistance": 0,
+      "StackMaxSize": 20,
+      "ExaminedByDefault": true,
+      "DiscardingBlock": false,
+      "DiscardLimit": 0,
+      "CanSellOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": ".338 Lapua Magnum Raufoss",
+        "shortName": "Raufoss",
+        "description": "A specialized AP-HE (armor-piercing high-explosive) round designed for anti-materiel and long-range precision roles. The Raufoss projectile combines a tungsten penetrator, incendiary compound, and explosive core, delivering high armor penetration with devastating terminal effects. Overkill against unarmored targets, but exceptionally effective against body armor, cover, and light vehicles."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "handbookPriceRoubles": 11592,
+    "fleaPriceRoubles": 17583,
+    "addtoBots": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": false
+  }
+}

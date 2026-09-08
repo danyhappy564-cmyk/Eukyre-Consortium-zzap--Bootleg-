@@ -1,0 +1,734 @@
+{
+  "68627f891c1601d14b88016a": {
+    "itemTplToClone": "5c793fb92e221644f31bfb64",
+    "parentId": "55818a594bdc2db9688b456a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Attachments/Stocks/strike_are_buffer_fde.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Strike Industries Advanced Receiver Extension buffer tube (FDE)",
+        "shortName": "ARE",
+        "description": "The Advanced Receiver Extension buffer tube, Mil-Spec diameter will fit any AR-15-based carbine or rifle. The buffer tube has a distinctive scalloping that decreases friction with the stock and reduces weight while retaining strength in areas that get the most stress. Manufactured by Strike Industries."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "handbookPriceRoubles": 8700,
+    "fleaPriceRoubles": 43400,
+    "addtoBots": false,
+    "masteries": false,
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "fc8b152a830c61dd8750f1c6": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 10440,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "68627fc110d11b57f67433b9": {
+    "itemTplToClone": "5c793fb92e221644f31bfb64",
+    "parentId": "55818a594bdc2db9688b456a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Attachments/Stocks/strike_are_buffer_grn.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Strike Industries Advanced Receiver Extension buffer tube (Olive Drab)",
+        "shortName": "ARE",
+        "description": "The Advanced Receiver Extension buffer tube, Mil-Spec diameter will fit any AR-15-based carbine or rifle. The buffer tube has a distinctive scalloping that decreases friction with the stock and reduces weight while retaining strength in areas that get the most stress. Manufactured by Strike Industries."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "handbookPriceRoubles": 8700,
+    "fleaPriceRoubles": 43400,
+    "addtoBots": false,
+    "masteries": false,
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "9c35d0b7b1c216d994def69b": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 10440,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "68627fa0df4af978ea48e2ee": {
+    "itemTplToClone": "5c793fb92e221644f31bfb64",
+    "parentId": "55818a594bdc2db9688b456a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Attachments/Stocks/strike_are_buffer_blue.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Blue)",
+        "shortName": "ARE",
+        "description": "The Advanced Receiver Extension buffer tube, Mil-Spec diameter will fit any AR-15-based carbine or rifle. The buffer tube has a distinctive scalloping that decreases friction with the stock and reduces weight while retaining strength in areas that get the most stress. Manufactured by Strike Industries."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "handbookPriceRoubles": 8700,
+    "fleaPriceRoubles": 135000,
+    "addtoBots": false,
+    "masteries": false,
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": false
+  },
+  "686d787fe69d3f3f9e3f5396": {
+    "itemTplToClone": "5649be884bdc2d79388b4577",
+    "parentId": "55818a594bdc2db9688b456a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Attachments/Stocks/stock_ump_buffertube.bundle",
+        "rcid": ""
+      },
+      "Recoil": -1,
+      "Ergonomics": 0
+    },
+    "locales": {
+      "en": {
+        "name": "HK UMP custom AR buffer tube stock",
+        "shortName": "UMP Adpt.",
+        "description": "A modified version of the standard UMP polymer stock, featuring a Colt A2 Carbine buffer tube assembly allowing for the installation of compatible buttstocks."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "handbookPriceRoubles": 5500,
+    "fleaPriceRoubles": 9458,
+    "addtoBots": false,
+    "masteries": false,
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": false
+  },
+  "687532d058893ecc096b66b5": {
+    "itemTplToClone": "5bfeb32b0db834001a6694d9",
+    "parentId": "55818a594bdc2db9688b456a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Attachments/Stocks/stock_m700_wood.bundle",
+        "rcid": ""
+      },
+      "ConflictingItems": [
+        "5d25a6538abbc306c62e630d",
+        "5d25a4a98abbc30b917421a4",
+        "5d25a7b88abbc3054f3e60bc",
+        "5ce69cbad7f00c00b61c5098",
+        "5d25a6a48abbc306c62e6310",
+        "5d25af8f8abbc3055079fec5",
+        "5cf12a15d7f00c05464b293f"
+      ],
+      "Ergonomics": 12,
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "M700 Remington wooden stock",
+        "shortName": "Remington",
+        "description": "A standard wooden hunting stock for civilian versions of the M700 sniper rifle. Manufactured by Remington."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "handbookPriceRoubles": 7694,
+    "fleaPriceRoubles": 12543,
+    "addtoBots": false,
+    "masteries": false,
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": true,
+    "traders": {
+      "JAEGER": {
+        "bfb067256d11c2f92d58dd81": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 2
+          },
+          "barters": [
+            {
+              "count": 11058,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "687a370fce925e8795c52050": {
+    "itemTplToClone": "6529370c405a5f51dd023db8",
+    "parentId": "55818a594bdc2db9688b456a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Attachments/Stocks/stock_ar15_bcm_mod2_blk.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 10,
+      "Recoil": -21.25,
+      "Weight": 0.268
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 BCM GUNFIGHTER MOD 2 SOPMOD buttstock",
+        "shortName": "MOD 2",
+        "description": "The BCM GUNFIGHTER MOD 2 SOPMOD (Special Operations Peculiar Mod) stock offers enhanced ergonomics and greater durability than the baseline BCM GUNFIGHTER stocks. Manufactured by Bravo Company Manufacturing."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "handbookPriceRoubles": 13209,
+    "fleaPriceRoubles": 19824,
+    "addtoBots": false,
+    "masteries": false,
+    "masterySections": [],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 22
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 22
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 22
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 22
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 22
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 31
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": false
+  },
+  "687a383b0d4513545588373b": {
+    "itemTplToClone": "6529370c405a5f51dd023db8",
+    "parentId": "55818a594bdc2db9688b456a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Attachments/Stocks/stock_ar15_bcm_mod2_fde.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 10,
+      "Recoil": -21.25,
+      "Weight": 0.268
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 BCM GUNFIGHTER MOD 2 SOPMOD buttstock (FDE)",
+        "shortName": "MOD 2",
+        "description": "The BCM GUNFIGHTER MOD 2 SOPMOD (Special Operations Peculiar Mod) stock offers enhanced ergonomics and greater durability than the baseline BCM GUNFIGHTER stocks. Manufactured by Bravo Company Manufacturing. Flat Dark Earth version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "handbookPriceRoubles": 13209,
+    "fleaPriceRoubles": 19824,
+    "addtoBots": false,
+    "masteries": false,
+    "masterySections": [],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 22
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 22
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 22
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 22
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 22
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 31
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": false
+  },
+  "68a10f462713e874b282763a": {
+    "itemTplToClone": "6529370c405a5f51dd023db8",
+    "parentId": "55818a594bdc2db9688b456a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Attachments/Stocks/stock_magpul_moe_sls_blk.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 8,
+      "Recoil": -23,
+      "Weight": 0.377
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul MOE SL-S buttstock",
+        "shortName": "MOE SL-S",
+        "description": "A quick-detach buttstock from AR-15/M16 rifles with mil-spec buffer tubes. Manufactured by Magpul Original Equipment."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "handbookPriceRoubles": 14522,
+    "fleaPriceRoubles": 14830,
+    "addtoBots": false,
+    "masteries": false,
+    "masterySections": [],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": false
+  },
+  "68a10f558d8eb8ea16240237": {
+    "itemTplToClone": "68a10f462713e874b282763a",
+    "parentId": "55818a594bdc2db9688b456a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Attachments/Stocks/stock_magpul_moe_sls_fde.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul MOE SL-S buttstock (FDE)",
+        "shortName": "MOE SL-S",
+        "description": "A quick-detach buttstock from AR-15/M16 rifles with mil-spec buffer tubes. Manufactured by Magpul Original Equipment. Flat Dark Earth version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "handbookPriceRoubles": 14522,
+    "fleaPriceRoubles": 14830,
+    "addtoBots": false,
+    "masteries": false,
+    "masterySections": [],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": false
+  },
+  "68bf1d562ea6c565fbd50013": {
+    "itemTplToClone": "61816734d8e3106d9806c1f3",
+    "parentId": "55818a594bdc2db9688b456a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Attachments/Stocks/stock_mk20_ssr_fde.bundle",
+        "rcid": ""
+      },
+      "Slots": [],
+      "Weight": 0.883,
+      "Width": 2,
+      "Ergonomics": 9,
+      "Recoil": 25.5,
+      "BlocksFolding": true
+    },
+    "locales": {
+      "en": {
+        "name": "FN SCAR 20 SSR enhanced marksman stock (FDE)",
+        "shortName": "Mk20",
+        "description": "A full-metal and rubber padded marksman stock for the SCAR-series rifles, manufactured by Fabrique Nationale Herstal."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "handbookPriceRoubles": 12422,
+    "fleaPriceRoubles": 33582,
+    "addtoBots": false,
+    "masteries": false,
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3
+      }
+    ],
+    "addtoStaticLootContainers": true,
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "463461f55319a9e96610aee7": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 4
+          },
+          "barters": [
+            {
+              "count": 23578,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

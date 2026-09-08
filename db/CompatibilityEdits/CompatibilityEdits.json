@@ -1,0 +1,43 @@
+{
+  "_comment": [
+    "Ported from EpicsEdits.ts. Each entry adds this mod's tpls to an existing filter on a",
+    "vanilla/other-mod item so ECOT parts and ammo fit where they should.",
+    "",
+    "The three .338 chamber entries replaced _props.Chambers wholesale on 3.11, rewriting the",
+    "chamber with the four vanilla .338 rounds plus ECOT's two. Appending the two new tpls to",
+    "the chamber that is already there is equivalent and does not clobber anything another mod",
+    "added to the same chamber first."
+  ],
+
+  "cartridgeFilterAdds": {
+    "673cbdfad0453ba50c0f76d6": ["68561ab84857b945e0ce85e9", "6859749fb61f50b920ae5a2a"],
+    "628120fd5631d45211793c9f": ["68561ab84857b945e0ce85e9", "6859749fb61f50b920ae5a2a"],
+    "5fc23426900b1d5091531e15": ["68561ab84857b945e0ce85e9", "6859749fb61f50b920ae5a2a"]
+  },
+
+  "chamberFilterAdds": {
+    "673cab3e03c6a20581028bc1": ["68561ab84857b945e0ce85e9", "6859749fb61f50b920ae5a2a"],
+    "627e14b21713922ded6f2c15": ["68561ab84857b945e0ce85e9", "6859749fb61f50b920ae5a2a"],
+    "5fc22d7c187fea44d52eda44": ["68561ab84857b945e0ce85e9", "6859749fb61f50b920ae5a2a"]
+  },
+
+  "slotFilterAdds": {
+    "616584766ef05c2ce828ef57": { "0": ["6857c3a0b4fec9f18e5e5e36", "685912a257837068f1460c7a"] },
+    "5c7d55f52e221644f31bff6a": { "0": ["6857c3a0b4fec9f18e5e5e36", "685912a257837068f1460c7a"] },
+    "5c7d560b2e22160bc12c6139": { "0": ["6857c3a0b4fec9f18e5e5e36", "685912a257837068f1460c7a"] },
+    "5fc3e272f8b6a877a729eac5": { "2": ["686d787fe69d3f3f9e3f5396"] },
+    "5fbbfabed5cb881a7363194e": { "0": ["6875f48210e047d487e43052"] },
+    "5fbbfacda56d053a3543f799": { "0": ["6875f48210e047d487e43052"] },
+    "5fb65363d1409e5ca04b54f5": { "0": ["686ad244771ad06c4fd8c970", "686ad2e1cb1cd4ac811bfe81", "686d61367b65e4565ddeb659", "686d613f44fd735790193ee4"] },
+    "5fb653962b1b027b1f50bd03": { "0": ["686ad244771ad06c4fd8c970", "686ad2e1cb1cd4ac811bfe81", "686d61367b65e4565ddeb659", "686d613f44fd735790193ee4"] },
+    "55d459824bdc2d892f8b4573": { "0": ["5ba26b01d4351e0085325a51", "5dfa3d950dee1b22f862eae0", "5c17804b2e2216152006c02f", "5fb6567747ce63734e3fa1dc", "5bc09a30d4351e00367fb7c8", "5c18b90d2e2216152142466b", "5fc0fa362770a0045c59c677", "5894a73486f77426d259076c"] },
+    "2e681ada9836f6e030080191": { "0": ["6859411da7ac91f2e4088de4", "68922e39bacf39d24ca68ddf", "687e0ad6c6789ae4fd6855b9", "687e09aa7e70e1e285c59d4e", "68642e0200397ba2b9e4ea9a", "685d43c384852051ef64e4e8"] },
+    "e1543def58291668bac8e2c8": { "0": ["6859411da7ac91f2e4088de4", "68922e39bacf39d24ca68ddf", "687e0ad6c6789ae4fd6855b9", "687e09aa7e70e1e285c59d4e", "68642e0200397ba2b9e4ea9a", "685d43c384852051ef64e4e8"] },
+    "689ce8bfd4370ee552a641da": { "5": ["689d099c264b71b2da14043f"] },
+    "68b192a29352f61e8d8f8d6d": { "1": ["687c0c34d7c15876af335f98", "687c0c225e00201a4d569c3b", "687c0c65a932f0bc6a5e89a4", "687d11609da5dc2dbb2b7d7e", "687d134da0544fe8d0e262d7"] }
+  },
+
+  "numericPropOverrides": {
+    "5c793fc42e221600114ca25d": { "Accuracy": 0, "Velocity": 0 }
+  }
+}

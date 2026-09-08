@@ -1,30 +1,116 @@
-**_Because who doesn't love unorganised slop modding?_**
-![Mod Description](https://github.com/user-attachments/assets/ce0694c6-9151-4d1a-a499-39c8f5e1f07c)
+# Eukyre's Consortium of Things — SPT 4.1
 
-ECOT (or, Eukyre's Consortium of Things) is an all-in-one mod in which I will be adding most of my future content that isn't set-up for Echoes of Tarkov, or my other standalone mods; as such you can expect to find a wide variety of items in this mod, from Glocks to specific Shark Plushies (Yes, they're back.)
+원작 **ECOT (Eukyre's Consortium of Things)** by **ProbablyEukyre** 를 **SPT 4.1.5** 로 포팅했습니다.
+프레임워크 원작: GrooveypenguinX · MIT 라이선스
 
-![Mod Contents](https://github.com/user-attachments/assets/412742b5-a034-4d61-be9b-af5407298605)
+Glock 22, .40 S&W 탄종, .338 LM RIP, Unity FAST COG 마운트, Blahaj 등 184개 아이템을 추가합니다.
 
-Currently, this mod contains the following items:
-- Glock 22 .40 S&W pistol
-- .40 S&W (JHP/FMJ/+P/Red Tracer)
-- .388 Lapua Magnum RIP
-- Unity Tactical FAST COG series sight mount (Black/FDE)
-- Blahaj (Large/Smol :D)
+## 필수 의존성
 
-![Planned Content](https://github.com/user-attachments/assets/8b8bcfa9-e1c4-417a-b931-125a5eb74503)
+> **WTT-ServerCommonLib 3.x 가 반드시 필요합니다.**
+>
+> 3.11 시절엔 이 모드가 WTT 아이템 프레임워크를 **타입스크립트로 복사해서 안에 들고 있었습니다.**
+> 4.1에서는 그게 정식 C# 패키지(`WTT-ServerCommonLib`)로 존재하기 때문에, 848줄을 다시 구현하는
+> 대신 그 라이브러리에 위임합니다. 없으면 아이템이 하나도 안 올라옵니다.
 
-Currently, the following items are planned additions:
-- SIG Sauer Romeo7 red dot sight
-- AR-15 STC Tactical "Valentine" muzzle brake
-- Leopold Mk4 CQ/T 1-3x rifle scope
-- Tasco ProPoint 1x42 scope
-- Bushmaster XM-15 rifle parts
-- Norinco CQ AR-15 rifle parts
-- Rugged Obsidian 9x19 suppressor
-- MPR45 Offset BUIS mount (Specifically for Canted Iron Sights)
+## 설치
 
-![gallery](https://github.com/user-attachments/assets/1d9f87bb-9eca-432d-bbba-8fc2d6452479)
-![ECOT Unity COG](https://github.com/user-attachments/assets/f97a61a6-4c07-4da6-90ab-b0448ede262c)
-![ECOT Unity FDE](https://github.com/user-attachments/assets/d38fc0ce-86cb-4d68-84f2-f70265c838d6)
-![Glock 22](https://github.com/user-attachments/assets/d13c094f-d61c-4a35-9e9f-765c39f390e5)
+`SPT\user\mods\EukyreConsortium\` 에 통째로 넣으면 됩니다 (`db`, `bundles`, dll, `bundles.json`).
+
+## 빌드
+
+```
+dotnet build src-cs/EukyreConsortium.csproj -c Release
+```
+
+SPT 경로 기본값은 `E:\SPT 4.1`. 다르면 `-p:SptRoot="D:\내경로"`.
+빌드하면 dll + db + 번들 1.1GB 가 위 경로로 복사됩니다.
+
+---
+
+## 4.1 포팅에서 바뀐 것
+
+### 1. 타입스크립트 → C#, 단 848줄을 옮긴 게 아닙니다
+
+SPT 4.x 서버는 C#입니다. 그런데 이 모드의 `CustomItemService.ts` 848줄은 **WTT 프레임워크를
+베껴온 것**이었고, 그 프레임워크는 4.1용 C#으로 이미 존재합니다:
+
+| 3.11 TS가 손수 하던 일 | 4.1 WTT-ServerCommonLib |
+| --- | --- |
+| `processStaticLootContainers` | `StaticLootHelper` |
+| `processModSlots` | `ModSlotHelper` |
+| `processInventorySlots` | `InventorySlotHelper` |
+| `processMasterySections` | `MasteryHelper` |
+| `processWeaponPresets` | `WeaponPresetHelper` |
+| `processTraders` | `TraderItemHelper` |
+| `addtoHallofFame` / `addtoSpecialSlots` | `HallOfFameHelper` / `SpecialSlotsHelper` |
+| `processBotInventories` | `BotLootHelper` |
+| `CustomAssortSchemeService.ts` | `WTTCustomAssortSchemeService` |
+| `CustomWeaponPresets.ts` | `WTTCustomWeaponPresetService` |
+| `WTTInstanceManager.ts` | 필요 없음 (생성자 주입) |
+
+그래서 **C# 코드는 약 250줄**이고, 대부분은 아래 두 개(라이브러리에 없는 기능)입니다.
+나머지는 라이브러리에 db 폴더를 넘기는 게 전부입니다.
+
+### 2. 진짜 작업은 JSON 184개 마이그레이션이었습니다
+
+4.1의 JSON 파싱은 **대소문자를 구분**합니다 (`PropertyNameCaseInsensitive` 미설정). 3.11 스키마
+그대로는 절반이 조용히 무시됩니다. `db/Items` → `db/CustomItems` 로 변환했습니다.
+
+| 3.11 | 4.1 | 건수 |
+| --- | --- | --- |
+| `traderId` + `traderItems` + `barterScheme` + `loyallevelitems` | `traders` (중첩 dict) | 147 |
+| `_tpl: "ROUBLES"` | `MONEY_ROUBLES` | 180 |
+| `StaticLootContainers[].ContainerName/Probability` | `staticLootContainers[].containerName/probability` | 179 |
+| `addweaponpreset` / `weaponpresets` | `addWeaponPreset` / `weaponPresets` | 55 |
+| `addtoragfair` | `registerInFleaPrices` | 31 |
+| `StaticLootContainer`(단수) + `Probability` | 위 리스트로 합침 | 6 |
+| `clearClonedProps`, `ModdableItemWhitelist` | 4.1에 없음 (전부 기본값이라 무해) | 184 |
+
+트레이더 어소트 항목마다 새 MongoId가 필요한데, 아이템 id에서 **결정적으로 유도**했습니다
+(`sha1("ecot-assort:<itemId>:<n>")` 앞 24자). 변환기를 다시 돌려도 id가 안 바뀝니다.
+
+### 3. 4.1의 엄격한 타입이 잡아낸 원본 데이터 버그 2개
+
+- **`handbookParentId: "MOD_REFLEXSIGHT"` (12개)** — WTT의 핸드북 카테고리 맵에 그 키가
+  없습니다. 3.11 모드 자체 테이블이 해석하던 리터럴 id `5b5f742686f774093e6cb4ff` 로 바꿨습니다.
+- **`masterySections[].Templates: ["SerbuShotgun"]` (마운트 3개)** — 4.1은 `Templates` 를
+  `MongoId[]` 로 강제합니다. 3.11은 아무 문자열이나 받았고, 이 값은 **어떤 무기와도 매칭된 적이
+  없어서 원래부터 죽은 데이터**였습니다. 없는 id를 지어내는 대신 제거했습니다.
+
+### 4. 라이브러리에 없어서 직접 짠 것
+
+- **`CompatibilityEdits`** (구 `EpicsEdits.ts` 195줄) — 바닐라/타 모드 아이템의 필터를 넓혀
+  ECOT 부품·탄약이 들어가게 하는 작업. 전부 "이 필터에 이 tpl 추가" 한 가지 모양이라 **데이터
+  + 적용기 하나**로 바꿨습니다 (`db/CompatibilityEdits/CompatibilityEdits.json`, 대상 20개).
+  .338 약실 3개는 3.11이 `_props.Chambers` 를 통째로 갈아끼웠는데, **기존 약실에 추가하는 방식**
+  으로 바꿨습니다 — 결과는 같고, 다른 모드가 먼저 건드린 약실을 날리지 않습니다.
+- **`ModdableItemBlacklist`** — "이 총에는 붙지 마라" 목록. WTT에 대응 기능이 없습니다.
+  아이템 설정에 데이터를 그대로 두고(라이브러리는 무시), 등록 후 해당 슬롯 필터에서 다시
+  빼는 패스를 넣었습니다. 16개 아이템이 이걸 씁니다.
+
+### 5. 그 밖
+
+- `[Injectable(InjectionType.Singleton)]` 명시 — 4.1이 기본값을 `Scoped` → `Transient` 로 바꿨습니다
+- `IModMetadata` + `OnLoadAsync(CancellationToken)`, `ModDependencies` 에 WTT commonlib 선언
+- `QuestModifier.ts` (259줄) — **3.11에서도 `mod.ts` 에 연결돼 있지 않은 죽은 코드**였습니다.
+  포팅하지 않았습니다. 딸린 `db/Quests/QuestSideData.json` 도 쓰이지 않습니다.
+- `package.json` / `packageBuild.ts` / `src/*.ts` 삭제
+
+## 검증
+
+컴파일만으로는 JSON이 실제로 읽히는지 알 수 없어서, **WTT-ServerCommonLib의 진짜 `CustomItemConfig`
+모델로 184개를 전부 역직렬화**하는 하네스를 돌렸습니다. SPT의 JSON 컨버터(MongoId, StringOrInt,
+ListOrT 등)를 같이 등록해서 서버와 같은 조건으로 파싱합니다. 추가로:
+
+- 라이브러리 자체 검증(`GetValidationErrors`) 통과 여부
+- `itemTplToClone` / `parentId` / `handbookParentId` 심볼이 WTT 맵 또는 `ItemTpl` 에서 실제로 해석되는지
+- 트레이더 키와 물물교환 `_tpl` 이 해석되는지
+
+**결과: 184/184 통과.** 위 3번의 버그 2개가 이 하네스에서 나왔습니다.
+
+## 상태
+
+- 빌드: **성공**
+- JSON 마이그레이션: **184/184 검증 통과**
+- 인게임 테스트: **아직 안 함**
