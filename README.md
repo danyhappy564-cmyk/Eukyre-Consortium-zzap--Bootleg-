@@ -87,13 +87,18 @@ SPT 4.x 서버는 C#입니다. 그런데 이 모드의 `CustomItemService.ts` 84
 트레이더 어소트 항목마다 새 MongoId가 필요한데, 아이템 id에서 **결정적으로 유도**했습니다
 (`sha1("ecot-assort:<itemId>:<n>")` 앞 24자). 변환기를 다시 돌려도 id가 안 바뀝니다.
 
-### 3. 4.1의 엄격한 타입이 잡아낸 원본 데이터 버그 2개
+### 3. 4.1의 엄격한 타입이 잡아낸 원본 데이터 버그 3개
 
 - **`handbookParentId: "MOD_REFLEXSIGHT"` (12개)** — WTT의 핸드북 카테고리 맵에 그 키가
   없습니다. 3.11 모드 자체 테이블이 해석하던 리터럴 id `5b5f742686f774093e6cb4ff` 로 바꿨습니다.
 - **`masterySections[].Templates: ["SerbuShotgun"]` (마운트 3개)** — 4.1은 `Templates` 를
   `MongoId[]` 로 강제합니다. 3.11은 아무 문자열이나 받았고, 이 값은 **어떤 무기와도 매칭된 적이
   없어서 원래부터 죽은 데이터**였습니다. 없는 id를 지어내는 대신 제거했습니다.
+- **`db/CustomWeaponPresets/WeaponPresets.json` 의 래퍼** — 3.11 코드가 `data.ItemPresets` 로
+  한 겹 벗겨서 읽었기 때문에 파일이 `{"ItemPresets": {...}}` 모양이었습니다. WTT 는 `{프리셋id: Preset}`
+  **평면 dict** 를 기대하므로, `"ItemPresets"` 를 프리셋 이름으로 읽고 그 안이 비어 있어
+  `Object reference not set to an instance of an object` 를 냈습니다 (실기동 로그에서 발견).
+  원본도 어차피 프리셋 0개였고, 실제 프리셋 4개는 아이템 설정의 `weaponPresets` 로 들어갑니다.
 
 ### 4. 라이브러리에 없어서 직접 짠 것
 
