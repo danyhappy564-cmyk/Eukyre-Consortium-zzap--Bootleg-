@@ -1520,14 +1520,6 @@
             ]
         },
         {
-            "key": "Attachments/Mounts/mount_hrf_skiff_blk.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "Attachments/Optics/scope_rmrhd_blk.bundle",
             "dependencyKeys": [
                 "shaders",
