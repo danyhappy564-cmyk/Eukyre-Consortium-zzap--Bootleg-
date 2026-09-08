@@ -1,6 +1,25 @@
+# Build output
+**/bin/
+**/obj/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / TypeScript leftovers from the 3.11 era
+node_modules/
+*.js
+*.js.map
+*.map
+
+# Local helper scripts
 generate_bundles.py
 .sptids
 *.py
-*.js
-*.js
-*.map
