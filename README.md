@@ -1,6 +1,6 @@
 # Eukyre's Consortium of Things (zzap-bootleg)
 
-원작 **ECOT (Eukyre's Consortium of Things)** 제작자: **ProbablyEukyre** 를 **SPT 4.1.5** 로 포팅했습니다.
+원작 **ECOT (Eukyre's Consortium of Things)** 제작자: **ProbablyEukyre** 를 **SPT 4.1.5** 로 포팅했(었)습니다.
 
 원작자 : **Created by probablyEukyre**
 
