@@ -1,7 +1,11 @@
 # Eukyre's Consortium of Things — SPT 4.1
 
 원작 **ECOT (Eukyre's Consortium of Things)** by **ProbablyEukyre** 를 **SPT 4.1.5** 로 포팅했습니다.
+원작자 : **Created by probablyEukyre**
+포지 : https://sp-mod.com/mod/2195/ecot-eukyres-consortium-of-things
 프레임워크 원작: GrooveypenguinX · MIT 라이선스
+
+**정말 미안합니다**
 
 Glock 22, .40 S&W 탄종, .338 LM RIP, Unity FAST COG 마운트, Blahaj 등 184개 아이템을 추가합니다.
 
