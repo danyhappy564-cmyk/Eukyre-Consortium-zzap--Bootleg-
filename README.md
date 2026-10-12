@@ -14,6 +14,10 @@
 
 ---
 
+## 변경 이력
+
+- 2026-10-13 04:46 — README 맨 위 원작자 표기를 한 줄씩 나눠 보기 쉽게 정리 (내용 변화 없음)
+
 # Eukyre's Consortium of Things (zzap-bootleg)
 
 원작 **ECOT (Eukyre's Consortium of Things)** 제작자: **ProbablyEukyre** 를 **SPT 4.1.5** 로 포팅했(었)습니다.
